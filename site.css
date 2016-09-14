@@ -36,6 +36,10 @@ aside {
 	color: #F2FFFC;
 }
 
+aside li {
+	display: inline-block;
+}
+
 footer {
 	background-color: #000;
 	color: #F2FFFC;

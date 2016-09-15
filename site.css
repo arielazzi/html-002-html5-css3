@@ -36,8 +36,8 @@ aside {
 	color: #F2FFFC;
 }
 
-aside li {
-	display: inline-block;
+.icones-sociais li {
+    display: inline-block;
 }
 
 footer {

@@ -26,6 +26,10 @@ p {
 	margin: 20px 0;
 }
 
+main {
+    padding-bottom: 80px;
+}
+
 blockquote {
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
@@ -90,6 +94,7 @@ em {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 .icones-sociais a{
@@ -109,4 +114,58 @@ h2 {
 
 .linkedin{
 	background-image: url('linkedin.png');
+}
+
+.fiat{
+	float: right;
+}
+
+.petrobras{
+	float: left;
+}
+
+main{
+	width: 85%;
+	float: left;
+}
+
+img,
+aside {
+    width: 15%;
+    float: right;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
+}
+
+footer{
+	clear: both;
+}
+.minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+img {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+aside {
+    position: relative;
+    top: 300px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
